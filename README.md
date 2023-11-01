@@ -1,5 +1,15 @@
 # llm-into-linux
-Thesis/Paper refence repository
+Thesis/Paper reference repository
+
+## State of the art
+
+#### Native support
+
+- [Deepin Assistant](https://www.deepin.org/zh/original/deepin-presentation-assistant/) is currently on development (Chinese reference), but it's based on LLM of Google AI
+- [KDE Connect](https://kdeconnect.kde.org/) can control a computer from a cellphone (Not really relate to Virtual Assistant)
+- [Athena](https://github.com/athena-team/athena) still on development, might be something similar
+- [Amazon Alex](https://www.linuxadictos.com/alexa-asistente-virtual-linux.html) can be used under wine or any Android Emulator
+- [Google assistant](https://support.google.com/assistant/thread/113897415/is-google-assistant-available-for-linux-os?hl=en) isn't really available for Linux as with Native support [Last Update - Jun 17, 2021]
 
 ## References
 
