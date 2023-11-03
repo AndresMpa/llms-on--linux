@@ -19,6 +19,10 @@ Thesis/Paper reference repository
 
 - [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
 - [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)
+- [LaMDA: Language Models for Dialog Applications](https://arxiv.org/abs/2201.08239)
+
+##### Optimization
+
 - [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685)
 
 #### Virtual Assistant (VA)
