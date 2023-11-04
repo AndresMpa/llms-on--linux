@@ -33,6 +33,8 @@ Thesis/Paper reference repository
 #### Extra (Context for myself) 
 
 - [How AI chat bots like ChatGPT of Bard work, visual explainer](https://www.theguardian.com/technology/ng-interactive/2023/nov/01/how-ai-chatbots-like-chatgpt-or-bard-work-visual-explainer)
+- [Web UI for testing models](https://poe.com/)
+- [Web UI for testing open source models](https://pinokio.computer/)
 
 #### Tutorials
 
