@@ -33,7 +33,7 @@ Thesis/Paper reference repository
 #### Extra (Context for myself) 
 
 - [How AI chat bots like ChatGPT of Bard work, visual explainer](https://www.theguardian.com/technology/ng-interactive/2023/nov/01/how-ai-chatbots-like-chatgpt-or-bard-work-visual-explainer)
-- [Web UI for testing models](https://poe.com/)
+- [Web UI for using/testing models (Poe)](https://poe.com/)
 - [Web UI for testing open source models](https://pinokio.computer/), [extensions](https://github.com/oobabooga/text-generation-webui-extensions) and some [models](https://huggingface.co/TheBloke), also a [colab version](https://github.com/camenduru/text-generation-webui-colab) 
 - [LLaMa on colab](https://colab.research.google.com/drive/1hlDGPSjbLOgFiWEbjhSW4poxYA0LiFrh?usp=sharing)
 
