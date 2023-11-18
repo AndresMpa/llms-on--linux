@@ -1,0 +1,11 @@
+Junwen Zheng, Martin Fischer,
+Dynamic prompt-based virtual assistant framework for BIM information search,
+Automation in Construction,
+Volume 155,
+2023,
+105067,
+ISSN 0926-5805,
+https://doi.proxyutp.elogim.com/10.1016/j.autcon.2023.105067.
+(https://sciencedirect.proxyutp.elogim.com/science/article/pii/S0926580523003278)
+Abstract: Efficient information search from building information models (BIMs) requires deep BIM knowledge or extensive engineering efforts for building natural language (NL)-based interfaces. To address this challenge, this paper introduces a dynamic prompt-based virtual assistant framework dubbed “BIMS-GPT” that integrates generative pre-trained transformer (GPT) technologies, supporting NL-based BIM search. To understand users' NL queries, extract relevant information from BIM databases, and deliver NL responses along with 3D visualizations, a dynamic prompt-based process was developed. In a case study, BIMS-GPT's functionality is demonstrated through a virtual assistant prototype for a hospital building. When evaluated with a BIM query dataset, the approach achieves accuracy rates of 99.5% for classifying NL queries with incorporating 2% of the data in prompts. This paper contributes to the advancement of effective and versatile virtual assistants for BIMs in the construction industry as it significantly enhances BIM accessibility while reducing the engineering and training data prerequisites for processing NL queries.
+Keywords: Building information modeling; Generative pre-trained transformer; Virtual assistant; Information search; Natural language processing; Artificial intelligence; BIMS-GPT; Prompt engineering; Large language model; Information retrieval
