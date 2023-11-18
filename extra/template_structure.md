@@ -3,6 +3,10 @@
 
 Linux hardware usage: Find a way to explain how you got it :/
 
+Linux automatization trought the operative system
+
+Linux unification, test, alternatives
+
 VA to help people specially developers
 
 IM inside LLM to give answers
