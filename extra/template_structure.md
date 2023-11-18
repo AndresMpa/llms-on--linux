@@ -15,6 +15,10 @@ IM inside LLM to give answers
 
 Is it possible to mix then? How? Is it expensive?
 
+#### Keywords
+
+GNU/Linux, Large Language Models, Virtual Assistant, Automatization, Natural Language Process
+
 ### Research question
 
 Is it possible to use LLaMa v2 to create a low-cost VA in terms of usage to help Linux users to manage their OS?
