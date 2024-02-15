@@ -41,6 +41,7 @@ Thesis/Paper reference repository
 
 - [To test several LLM](https://www.youtube.com/watch?v=PCAA4LP3bBU)
 - [About fine-tuning](https://youtu.be/HH6WBuo77BU?feature=shared)
+- [Text to audio](https://youtu.be/FdUbxZDlNKc?feature=shared)
 
 ## Similar projects
 
