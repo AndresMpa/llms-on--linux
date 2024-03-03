@@ -30,6 +30,8 @@ Thesis/Paper reference repository
 - [Large language models as an “operating” system for software and systems modeling](https://link.springer.com/article/10.1007/s10270-023-01126-0) [PDF](./paper/useful/LLM%20as%20an%20OS.pdf)
 - [MemGPT: Towards LLMs as Operating Systems](https://arxiv.org/abs/2310.08560) [PDF](./paper/extra/MemGPT.pdf)
 
+#### Autonomous agents (AA)
+
 #### Extra (Context for myself) 
 
 - [How AI chat bots like ChatGPT of Bard work, visual explainer](https://www.theguardian.com/technology/ng-interactive/2023/nov/01/how-ai-chatbots-like-chatgpt-or-bard-work-visual-explainer)
