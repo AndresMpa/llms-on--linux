@@ -1,4 +1,5 @@
-# llm-into-linux
+## Thesis - LLM into Linux
+
 Thesis/Paper reference repository
 
 ## State of the art
@@ -30,12 +31,17 @@ Thesis/Paper reference repository
 - [Large language models as an “operating” system for software and systems modeling](https://link.springer.com/article/10.1007/s10270-023-01126-0) [PDF](./paper/useful/LLM%20as%20an%20OS.pdf)
 - [MemGPT: Towards LLMs as Operating Systems](https://arxiv.org/abs/2310.08560) [PDF](./paper/extra/MemGPT.pdf)
 
+#### Autonomous Agents (AA)
+
+- [Autonomous agents definition](https://cse-robotics.engr.tamu.edu/dshell/cs631/papers/franklingraesser96agents.pdf)
+
 #### Extra (Context for myself) 
 
 - [How AI chat bots like ChatGPT of Bard work, visual explainer](https://www.theguardian.com/technology/ng-interactive/2023/nov/01/how-ai-chatbots-like-chatgpt-or-bard-work-visual-explainer)
 - [Web UI for using/testing models (Poe)](https://poe.com/)
 - [Web UI for testing open source models](https://pinokio.computer/), [extensions](https://github.com/oobabooga/text-generation-webui-extensions) and some [models](https://huggingface.co/TheBloke), also a [colab version](https://github.com/camenduru/text-generation-webui-colab) 
 - [LLaMa on colab](https://colab.research.google.com/drive/1hlDGPSjbLOgFiWEbjhSW4poxYA0LiFrh?usp=sharing)
+- [Some autonomous agents](https://www.techopedia.com/top-5-autonomous-ai-agents)
 
 #### Tutorials
 
