@@ -4,87 +4,72 @@
 
 [comment]: <> (Option 3: Bridging Distinctiveness: A Cost-Effective Virtual Assistant for Arch Linux Users Powered by LLaMa v2)
 
+
 ## Abstract
 
 The increasing complexity of Linux systems, coupled with the growing demand for automation in software development and system management, necessitates innovative solutions [15, 16]. This research explores the feasibility of employing a Large Language Model [11, 13], specifically LLaMa v2, to create a cost-effective Virtual Assistant [7, 8, 10, 11, 13] tailored for Arch Linux users. The aim is to enhance user experience by providing context-specific suggestions and addressing general queries related to the installed software.
 
 #### Keywords
 
-GNU/Linux, Large Language Models, Virtual Assistant, Automatization, Natural Language Process
+GNU/Linux, Large Language Models, Virtual Assistant, Automatization, Autonomous Agents
 
 ## Introduction
 
-As the landscape of Linux systems evolves, the intricate nature of these platforms poses challenges for users, particularly in terms of system management and software development. The versatility and continuous evolution of GNU/Linux, in alignment with its open-source philosophy, contribute to a dynamic environment marked by diverse distributions and frequent updates [15, 16, 18]. In this context, the demand for effective automation tools becomes becomes essential to streamline tasks and improve user productivity [17, 18].
+[comment]: <> (Expandir la cosas )
 
-Recognizing the need for innovative solutions in this complex Linux ecosystem, this research delves into the potential of leveraging advanced technologies to address the challenges faced by Arch Linux users [15]. With a focus on system management and software-related queries, the study seeks to explore the feasibility of employing a Large Language Model (LLM) known as LLaMa v2 [11, 13]. LLMs, characterized by their natural language processing capabilities, offer a promising path to creating intelligent and cost-effective virtual assistants [7, 8, 10, 11, 13].
+As the landscape of Linux systems evolves, the intricate nature of these platforms poses challenges for users, particularly in terms of system management and software development. The versatility and continuous evolution of GNU/Linux, in alignment with its open-source philosophy, contribute to a dynamic environment marked by diverse distributions and frequent updates [15, 16, 18]. In this context, the demand for effective automation tools becomes essential to streamline tasks and improve user productivity [17, 18].
+
+Nowadays, virtual assistants are becoming into a essential tool for users, handling with their shoppings, traveling, wheatear querying, etc... Projects and products like Amazon Alexa, Google Assistant or Siri leave GNU/Linux without any native support, even if GNU/Linux community has projects like Deeping Assistant (Which is still on development) or KDE Connect which provide similar features, the reality of this is that state of the art for virtual assistant is focus on AGI [<TODO: buscar la cita del estado del arte de los VA>] but, there's no enough research on GNU/Linux systems, specially on systems Rolling Release like Arch Linux. Due to its continues updating process, this way exploring this subset of systems becomes something interesting, it owns exceptional characteristics that Virtual Assistant are not prepare for, that's why using some extra features become crucial, those features can be provided by autonomous agents to achieve a continues loop of context for the virtual assistant.
+
+Recognizing the need for innovative solutions in this complex Linux ecosystem, this research delves into the potential of leveraging advanced technologies to address the challenges faced by Arch Linux users [15]. With a focus on system management and software-related queries, the study seeks to explore the feasibility of employing a Large Language Model (LLM) known as LLaMa v2 [11, 13]. LLM have been taken as the closes approach to Autonomous Agents as a consequence of LLMs are characterized by their natural language processing capabilities, offer a promising path to creating intelligent and cost-effective virtual assistants [7, 8, 10, 11, 13].
+
+[comment]: <> (The study seeks to explore the feasibility of employing a LLM known as LLaMa v2 -> Use this to talk about autonomous agents)
 
 ### Problem context
 
-The challenges inherent in managing Arch Linux systems are amplified by the system's rolling release model, introducing potential stability issues [15]. Moreover, the unique philosophy of GNU/Linux, where information is distributed across a multitude of sources without a centralized repository, presents a formidable challenge for developers seeking to generalize information for broader use [15, 16, 18]. The dynamism of GNU/Linux distributions, with new ones emerging and others becoming obsolete in short periods, further complicates the process of collecting and maintaining up-to-date data [17, 18].
+[comment]: <> (Dejar esto)
+
+The challenges inherent in managing Arch  Linux systems are amplified by the system's rolling release model, introducing potential stability issues [15]. Moreover, the unique philosophy of GNU/Linux, where information is distributed across a multitude of sources without a centralized repository, presents a formidable challenge for developers seeking to generalize information for broader use [15, 16, 18]. The dynamism of GNU/Linux distributions, with new ones emerging and others becoming obsolete in short periods, further complicates the process of collecting and maintaining up-to-date data [17, 18].
 
 Recognizing these complexities, this research seeks to navigate the intricate Linux landscape by proposing a Virtual Assistant tailored for Arch Linux users [15]. The Virtual Assistant aims to empower users with context-specific suggestions and solutions to general queries about their installed software, thereby improving the overall user experience [15, 16, 18].
-
-### Research gap and motivation
 
 While Virtual Assistants have become increasingly common [1-5], their adaptation to the nuances of the Linux environment, especially tailored for specific distributions like Arch Linux, remains an underexplored domain. The potential benefits of employing LLaMa v2 as the backbone for such a Virtual Assistant further motivate this investigation, with the goal of contributing to the efficiency and user-friendliness of Linux system management and software-related tasks [14].
 
 By addressing the unique challenges presented by Arch Linux and the broader GNU/Linux ecosystem, this research aspires to pave the way for the development of intelligent and adaptive Virtual Assistants, fostering a more seamless integration of automation in the Linux user experience [6].
 
+## Justification
+
+GNU/Linux philosophy have been developed under the Open culture, this characteristic aims to provide users the option to learn, share, fix or talk about solutions to any problem or issue with a dependency, an specific task and so on ([Ask about this](https://www.gnu.org/philosophy/free-sw.en.html)). This approach creates a continue workflow of options for users to solve their problems with their systems or their particular tasks. In principle, that workflow provide a huge amount of solutions, for a great diversity of problems; but that approach have created some particularities had made of GNU/Linux environment a difficult one for new users and experimented users, [if you check sites like SourceForge you will quickly realize that - Find a better ref].
+
+It is well known on GNU/Linux community that you can install at least two different packages for anything you need to do, which is a good example of the choosing paradox ([Get some philologist here](https://en.wikipedia.org/wiki/The_Paradox_of_Choice)), in which you don't know what to choose due to the amount of options each with pros and cons inherent to their context (Find a ref about this), this is the reason it is so common on GNU/Linux community to write large wikis with a set of different solutions. Arch Linux wiki or Ubuntu Forum are two example of those centric sites to look for solutions, information or options. In short, they are well documented and organized, indeed it is so common for new users to have the necessity of keep looking for hours a solution, a system could provide with a short sente, a command or a package, what is the most common solutions users are looking for. In the other hand, when experimented users have a problem those problems generally are related to package's state, a miss configurations of two or more tools or simple the necessity to install an specific package, so the cycle starts again for them, having the necessity to look for solutions reading for hours.
+
+[comment]: <> (Evaluation systems, viability)
+
+[comment]: <> (Expand here about Users needs and problems)
+
+The proposal is to use a Virtual assistant (VA) directly installed on each user machine getting the context from user's OS giving context to a cost-efficient pre-trained LLM based on Llama v2 to improve accuracy of given solutions, directly having the systems context reading OS characteristic from man and help command outputs, differing with options like ChatGPT, Gemini or similar GTPs models that need to have context to be provided as a prompt that depends on user previous knowledge of the problem
+
+## General objective
+
+Design a virtual assistant proposal that uses Llama v2 to extend the base functionalities of a virtual assistant to be able to give an Arch Linux user insights about their system, help them managing their operative systems, providing context-specific suggestions, and addressing general software-related inquiries
+
+### Specific objectives
+
+- Adapt Llama v2 to create a cost-efficient LLM available to be used in GNU/Linux systems under the context of a virtual assistant
+
+- Extend the features of a virtual assistant to support a pre
+
+- Evaluate the system performance 
+
+
 ### Research question
 
-Is it feasible to utilize LLaMa v2 to construct a cost-efficient Virtual Assistant capable of assisting Arch Linux users in managing their operating systems, providing context-specific suggestions, and addressing general software-related inquiries?
+[comment]: <> (Agregar un gold standard, usar la misma metrica para la pregunta y para lo contexto, hacerlo no binario)
 
-### Hypothesis
+How to design a cost-efficient virtual assistant using LLaMa v2 as Generative Pre-trained Transformer (GPT) capable of assisting Arch Linux users in managing their operative systems, providing context-specific suggestions, and addressing general software-related inquiries?
 
-The integration of LLaMa v2 into a Virtual Assistant for Arch Linux users has the potential to significantly enhance system management and user experience, offering valuable insights and automated solutions.
+### Methodology
 
-#### Objectives
-
-- Develop a Virtual Assistant utilizing pre-trained LLaMa v2.
-- Provide general information about the current state of the user's operating system.
-- Offer context-specific suggestions based on the installed software.
-- Address specific inquiries related to the Arch Linux operating system.
-
-### Methodology (Still under construction)
-
-1. Pre-training the LLaMa v2 Model:
-
-- Data Collection:
-    - Gather a diverse and representative dataset from the Arch Linux wiki, man pages, and Ubuntu's wiki.
-    - Ensure the dataset covers a wide range of topics related to Linux systems, software, and operations.
-
-- Pre-processing:
-    - Clean and preprocess the collected data to remove irrelevant information, noise, or duplicate content. To aim this purpose a shell (Bash) script must be created
-    - Tokenize and structure the data to facilitate effective learning.
-
-- Pre-training:
-    - Utilize the pre-processed dataset to pre-train the LLaMa v2 model.
-    - Leverage transfer learning to enhance the model's understanding of Linux-specific language and context.
-
-2. Fine-tuning for Individual Users using LSTM:
-
-- User-Specific Data:
-    - Collect user-specific data, possibly including historical commands, preferences, and interactions with the Virtual Assistant.
-
-- Fine-tuning Process:
-    - Fine-tune the pre-trained LLaMa v2 model for each individual user using Long Short-Term Memory (LSTM) networks.
-    - This fine-tuning process allows the model to adapt to each user's unique requirements and language nuances.
-
-3. Evaluation:
-
-- Performance Metrics:
-    - Establish metrics to evaluate the performance of the Virtual Assistant, such as response accuracy, contextual relevance, and user satisfaction.
-    - Consider using user feedback and interactions to iteratively improve the model.
-
-- Testing:
-    - Conduct rigorous testing with a diverse set of Arch Linux users to validate the effectiveness of the fine-tuned model.
-    - Compare the performance of the model before and after fine-tuning to measure improvements.
-
-4. Iterative Improvement:
-
-- Feedback Loop:
-    - Implement a feedback loop where user interactions contribute to continuous improvement.
-    - Regularly update the model based on user feedback and evolving user needs.
 
 ## References
 
