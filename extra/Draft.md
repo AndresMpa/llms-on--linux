@@ -1,9 +1,8 @@
-# Navigating the Linux Landscape: A Feasibility Study on Employing LLaMa v2 for Crafting a Context-Aware Virtual Assistant Tailored for Arch Linux Users
+# NAVIGATING THE LINUX LANDSCAPE: A FEASIBILITY STUDY ON EMPLOYING LLAMA V2 FOR CRAFTING A CONTEXT-AWARE VIRTUAL ASSISTANT TAILORED FOR ARCH LINUX USERS
 
 [comment]: <> (Option 2: Tackling Dynamism: LLaMa v2's Role in Crafting an Adaptive Virtual Assistant for Arch Linux System Management)
 
 [comment]: <> (Option 3: Bridging Distinctiveness: A Cost-Effective Virtual Assistant for Arch Linux Users Powered by LLaMa v2)
-
 
 ## Abstract
 
