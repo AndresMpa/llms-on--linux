@@ -2,6 +2,11 @@
 
 Thesis/Paper reference repository
 
+## TODO
+
+- [ ] Create methodology 
+- [ ] Analize option
+
 ## State of the art
 
 #### Native support
