@@ -47,6 +47,7 @@ Thesis/Paper reference repository
 - [Web UI for testing open source models](https://pinokio.computer/), [extensions](https://github.com/oobabooga/text-generation-webui-extensions) and some [models](https://huggingface.co/TheBloke), also a [colab version](https://github.com/camenduru/text-generation-webui-colab) 
 - [LLaMa on colab](https://colab.research.google.com/drive/1hlDGPSjbLOgFiWEbjhSW4poxYA0LiFrh?usp=sharing)
 - [Some autonomous agents](https://www.techopedia.com/top-5-autonomous-ai-agents)
+- [HOW TO - Fine tune llama 2](https://youtu.be/HH6WBuo77BU?feature=shared)
 
 #### Tutorials
 
