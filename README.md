@@ -6,6 +6,7 @@ Thesis/Paper reference repository
 
 - [ ] Create methodology 
 - [ ] Analize option
+- [ ] Change arch overview 
 
 ## State of the art
 
