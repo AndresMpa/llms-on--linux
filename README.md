@@ -1,24 +1,58 @@
-## A SLM for Linux (Reference repository)
+## SLMs on Linux (Reference repository)
 
-Why should you use a SLM in your OS? What about two? Or three? Image having your personal Alexa, what about having a personal assitant or a coworkers you can use to handle with different task. Sounds great, right? Let's imagen something like that completly native for your GNU/Linux OS, useful for you and customized by you, to make it just as you need it, to solve your particular issues under your own context. That's the goal of this paper
+Why should you use a SLM in your OS? What about two? Or three? Image having your personal Alexa, what about having a personal assitant or a coworkers you can use to handle with different task. Sounds great, right? Let's imagen something like that completly native for your GNU/Linux OS, useful for you and customized by you, to make it just as you need it, to solve your particular issues under your own OS context. That's the goal of this thesis, this thesis is pretending to make a proposal for making a the ultimate GNU/Linux assistant giving your OS the capability to solve your issue under your own context using SLM to achieve an efective communication with you on your particular needs
 
-## TODO
+## Resources
 
-- [ ] Create methodology 
-- [ ] Analize option
-- [ ] Change arch overview 
+To achieve the aim of this thesis, the following resource have been taken as a base for making new datasets, some of them were choosen as references
+
+<details>
+<summary> Datasets at HuggingFace </summary>
+  
+Taken from [HuggingFace](https://huggingface.co/datasets?sort=trending&search=linux) at Thursday, August 15th, 2024 - 02:02 AM
+
+- [KonradSzafer/stackoverflow_linux](https://huggingface.co/datasets/KonradSzafer/stackoverflow_linux)
+- [nagrajn/synthetic_linux_commands](https://huggingface.co/datasets/nagrajn/synthetic_linux_commands)
+- [westenfelder/Linux-Manual-Pages-TLDR](https://huggingface.co/datasets/westenfelder/Linux-Manual-Pages-TLDR/viewer/default/train?p=4)
+- [hotal/linux_commands](https://huggingface.co/datasets/hotal/linux_commands/viewer/default/train?p=2)
+- [Romit2004/LinuxCommands](https://huggingface.co/datasets/Romit2004/LinuxCommands)
+- [tmskss/linux-man-pages-tldr-summarized](https://huggingface.co/datasets/tmskss/linux-man-pages-tldr-summarized) adapted from [tldr-pages/tldr: 📚 Collaborative cheatsheets for console commands](https://github.com/tldr-pages/tldr/)
+- [shikhardadhich/linux_commands](https://huggingface.co/datasets/shikhardadhich/linux_commands?row=99)
+</details>
+
+<details>
+<summary> List of applications from ArchWiki </summary>
+  
+Taken from [List for applications - ArchWiki](https://wiki.archlinux.org/title/List_of_applications) at Thursday, August 15th, 2024 - 02:15 AM
+
+- [List of applications/Documents](https://wiki.archlinux.org/title/List_of_applications/Documents)
+- [List of applications/Internet](https://wiki.archlinux.org/title/List_of_applications/Internet)
+- [List of applications/Multimedia](https://wiki.archlinux.org/title/List_of_applications/Multimedia)
+- [List of applications/Science](https://wiki.archlinux.org/title/List_of_applications/Science)
+- [List of applications/Security](https://wiki.archlinux.org/title/List_of_applications/Security)
+- [List of applications/Utilities](https://wiki.archlinux.org/title/List_of_applications/Utilities)
+- [List of applications/Other](https://wiki.archlinux.org/title/List_of_applications/Other)
+</details>
+
+
 
 ## State of the art
 
-#### Native support
-
+<details>
+<summary> Native support </summary>
+  
 - [Deepin Assistant](https://www.deepin.org/zh/original/deepin-presentation-assistant/) is currently on development (Chinese reference), but it's based on LLM of Google AI
 - [Athena](https://github.com/athena-team/athena) still on development, might be something similar
 - [KDE Connect](https://kdeconnect.kde.org/) can control a computer from a cellphone (Not really relate to Virtual Assistant)
+</details>
 
-#### Non supported or Partial support
+
+<details>
+<summary> Non supported or Partial support </summary>
+  
 - [Amazon Alex](https://www.linuxadictos.com/alexa-asistente-virtual-linux.html) can be used under wine or any Android Emulator
 - [Google assistant](https://support.google.com/assistant/thread/113897415/is-google-assistant-available-for-linux-os?hl=en) isn't really available for Linux as with Native support [Last Update - Jun 17, 2021]
+</details>
 
 ## References
 
@@ -60,5 +94,4 @@ Why should you use a SLM in your OS? What about two? Or three? Image having your
 
 - [Mycroft](https://github.com/MycroftAI/mycroft-core#behind-the-scenes)
 - [Rhasspy](https://rhasspy.readthedocs.io/en/latest/)
-- [Jasper](https://www.jasper.ai/)
 - [Project Alice Assistant](https://github.com/project-alice-assistant/ProjectAlice)
