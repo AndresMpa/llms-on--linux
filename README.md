@@ -1,4 +1,4 @@
-## SLMs on Linux (Reference repository)
+## LLMs on Linux (Reference repository)
 
 Why should you use a SLM in your OS? What about two? Or three? Image having your personal Alexa, what about having a personal assitant or a coworkers you can use to handle with different task. Sounds great, right? Let's imagen something like that completly native for your GNU/Linux OS, useful for you and customized by you, to make it just as you need it, to solve your particular issues under your own OS context. That's the goal of this thesis, this thesis is pretending to make a proposal for making a the ultimate GNU/Linux assistant giving your OS the capability to solve your issue under your own context using SLM to achieve an efective communication with you on your particular needs
 
