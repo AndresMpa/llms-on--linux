@@ -19,7 +19,7 @@ Taken from [HuggingFace](https://huggingface.co/datasets?sort=trending&search=li
 </details>
 
 <details>
-<summary> List of applications from ArchWiki </summary>
+<summary> List of applications from wikis </summary>
   
 Taken from [List for applications - ArchWiki](https://wiki.archlinux.org/title/List_of_applications) at Thursday, August 15th, 2024 - 02:15 AM
 
@@ -30,6 +30,8 @@ Taken from [List for applications - ArchWiki](https://wiki.archlinux.org/title/L
 - [List of applications/Security](https://wiki.archlinux.org/title/List_of_applications/Security)
 - [List of applications/Utilities](https://wiki.archlinux.org/title/List_of_applications/Utilities)
 - [List of applications/Other](https://wiki.archlinux.org/title/List_of_applications/Other)
+- [Debian - List of sections](https://packages.debian.org/stable/)
+- [Software packages in "Noble"](https://packages.ubuntu.com/noble/allpackages)
 </details>
 
 
